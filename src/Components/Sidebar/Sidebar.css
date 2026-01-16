@@ -1,0 +1,7 @@
+.sidebar {
+  border: 1px solid red;
+}
+
+.sidebar__container {
+  border: 1px solid rgb(14, 243, 10);
+}

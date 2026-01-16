@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.navbar {
+  background: rgb(249, 248, 248);
+  box-shadow: 8px 8px 8px 8px #f5f6f8;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7ebf5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar__logo--title .navbar__logo--link {
+  font-family: "Lobster Two", cursive;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 40px;
+  color: #253e5f;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.navbar__links--items {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar__item--link {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  color: #253e5f;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.navbar__message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar__message--title {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  color: #465363;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.navbar__message--link .navbar__mesage--icon {
+  font-size: 25px;
+  /* color: black; */
+  transition: 0.8s all ease;
+}
+
+.navbar__message--link .navbar__mesage--icon:hover {
+  transform: scale(1.3);
+}
+
+.instagram__icon:hover {
+  color: rgb(221, 12, 81);
+}
+
+.telegram__icon:hover {
+  color: rgb(7, 127, 240);
+}
+
+.github__icon:hover {
+  color: rgb(0, 0, 0);
+}
+
+.book__icon:hover {
+  color: rgb(241, 112, 65);
+}
+
+.linkedin__icon:hover {
+  color: rgb(14, 130, 239);
+}
+
+@media (max-width: 800px) {
+  .navbar__links {
+    display: none;
+  }
+
+  
+}
