@@ -45,36 +45,6 @@
   line-height: 40px;
   text-decoration: none;
   letter-spacing: 0;
-  background: linear-gradient(
-    270deg,
-    #253e5f,
-    #4facfe,
-    #00f2fe,
-    #253e5f
-  );
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textGradient 6s ease infinite;
-}
-
-/* AFTER – pastki chiziq */
-.navbar__logo--title .navbar__logo--link::after {
-  content: "";
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background: linear-gradient(
-    270deg,
-    #253e5f,
-    #4facfe,
-    #00f2fe,
-    #253e5f
-  );
-  background-size: 400% 400%;
-  animation: lineMove 4s linear infinite reverse;
 }
 
 /* TEXT GRADIENT ANIMATION */
@@ -87,16 +57,6 @@
   }
   100% {
     background-position: 0% 50%;
-  }
-}
-
-/* LINE MOVEMENT */
-@keyframes lineMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 200% 50%;
   }
 }
 
@@ -190,5 +150,17 @@
   .navbar__logos .navbar__logo--title .navbar__logo--link {
     font-size: 30px;
     letter-spacing: 10px;
+    background: linear-gradient(
+    270deg,
+    #253e5f,
+    #4facfe,
+    #02ea09,
+    #253e5f,
+    #e52d3f
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textGradient 6s ease infinite;
   }
 }
