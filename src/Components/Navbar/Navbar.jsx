@@ -7,11 +7,27 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 function Navbar() {
   return (
     <div className="navbar">
+
+    <div className="navbar__logos">
+          <h1 className="navbar__logo--title">
+            <a className="navbar__logo--link" href="">
+              Turgunov...
+            </a>
+          </h1>
+        </div>
+
       <div className="navbar__container container">
+        <div className="navbar__menu">
+          <a className="navbar__message--link" href="">
+            <FaBars className="navbar__menu--icon bars__icon" />
+          </a>
+        </div>
+
         <div className="navbar__logo">
           <h1 className="navbar__logo--title">
             <a className="navbar__logo--link" href="">
