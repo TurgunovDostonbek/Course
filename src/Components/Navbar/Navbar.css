@@ -163,6 +163,24 @@
     animation: borderFlow 4s linear infinite;
   }
 
+  .navbar__container {
+    position: relative;
+    padding-bottom: 12px;
+  }
+
+  .navbar__container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, #253e5f, #4306ea, #00f2fe, #253e5f);
+    background-size: 400% 400%;
+    animation: borderFlow 4s linear infinite;
+  }
+
+
   /* KEYFRAMES */
   @keyframes borderFlow {
     0% {
