@@ -21,10 +21,12 @@
 .navbar__logos {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   padding-top: 20px;
+  padding-left: 10px;
   /* padding-bottom: 10px; */
   display: none;
+  animation: textGradient 6s ease infinite;
 }
 
 .navbar__logo--title .navbar__logo--link {
@@ -59,7 +61,6 @@
     background-position: 0% 50%;
   }
 }
-
 
 .navbar__links--items {
   display: flex;
@@ -144,23 +145,49 @@
   }
 
   .navbar__logos {
+    position: relative;
     display: flex;
+    padding-bottom: 12px; /* border uchun joy */
+  }
+
+  /* ANIMATED BORDER */
+  .navbar__logos::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, #253e5f, #4306ea, #00f2fe, #253e5f);
+    background-size: 400% 400%;
+    animation: borderFlow 4s linear infinite;
+  }
+
+  /* KEYFRAMES */
+  @keyframes borderFlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
   }
 
   .navbar__logos .navbar__logo--title .navbar__logo--link {
     font-size: 30px;
-    letter-spacing: 10px;
+    color: white;
+    letter-spacing: 5px;
     background: linear-gradient(
-    270deg,
-    #253e5f,
-    #4facfe,
-    #02ea09,
-    #253e5f,
-    #e52d3f
-  );
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textGradient 6s ease infinite;
+      270deg,
+      #253e5f,
+      #4facfe,
+      #02ea09,
+      #253e5f,
+      #e52d3f
+    );
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 6s ease infinite;
   }
 }
