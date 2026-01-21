@@ -6,8 +6,7 @@ import Course from "./Course/Course";
 function Main() {
   return (
     <>
-      {/* <Banner /> */}
-      <Course />
+      <Course  />
     </>
   );
 }

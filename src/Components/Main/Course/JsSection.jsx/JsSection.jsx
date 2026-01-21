@@ -1,7 +1,9 @@
 import "./JsSection.css";
 
 function JsSection() {
-  return <div>JsSection</div>;
+  return <div>
+    <h1>JS</h1>
+  </div>;
 }
 
 export default JsSection;
