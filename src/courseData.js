@@ -2,6 +2,9 @@ import reactImg from "./assets/images/react.jpg";
 import htmlImg from "./assets/images/html.jpg";
 import cssImg from "./assets/images/css.jpg";
 import jsImg from "./assets/images/js.jpg";
+import tsImg from "./assets/images/typescript 2.png";
+import tcssImg from "./assets/images/Tailwind css2.png";
+import sassImg from "./assets/images/Sass..png";
 
 export const courses = [
   {
@@ -42,33 +45,36 @@ export const courses = [
   },
   {
     id: 5,
-    img: [],
+    img: [tsImg],
     titleBig: "TYPE SCRIPT",
     shortTitle: "Type Script",
-    description: "Yuklanmoqda......",
+    description:
+      "TypeScript — xatolarni oldindan topishga yordam beradigan, katta va murakkab loyihalar uchun qulay bo‘lgan JavaScript tili.",
     buttonText: "Click Me",
   },
   {
     id: 6,
-    img: [],
+    img: [tcssImg],
     titleBig: "TAILWIND CSS",
     shortTitle: "Tailwind Css",
-    description: "Yuklanmoqda......",
+    description:
+      "Tailwind CSS — classlar orqali tez va moslashuvchan dizayn qilish imkonini beradigan CSS framework.",
     buttonText: "Click Me",
   },
   {
     id: 7,
-    img: [],
-    titleBig: "TAILWIND CSS",
-    shortTitle: "Tailwind Css",
-    description: "Yuklanmoqda......",
+    img: [sassImg],
+    titleBig: "SASS ",
+    shortTitle: "Sass. (Css)",
+    description:
+      "Sass — o‘zgaruvchi, ichma-ich yozish va funksiyalar orqali CSS yozishni soddalashtiradigan preprocessor.",
     buttonText: "Click Me",
   },
   {
     id: 8,
     img: [],
     titleBig: "TAILWIND CSS",
-    shortTitle: "Tailwind Css",
+    shortTitle: "?",
     description: "Yuklanmoqda......",
     buttonText: "Click Me",
   },

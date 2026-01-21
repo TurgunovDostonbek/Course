@@ -1,7 +1,9 @@
 import "./CssSection.css";
 
 function CssSection() {
-  return <div></div>;
+  return <div>
+    <h1>Css Malumotlari</h1>
+  </div>;
 }
 
 export default CssSection;
