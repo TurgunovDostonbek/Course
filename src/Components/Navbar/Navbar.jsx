@@ -16,9 +16,7 @@ function Navbar() {
 
       <div className="navbar__logos">
         <h1 className="navbar__logo--title">
-          <a className="navbar__logo--link" href="">
-            {name}
-          </a>
+          <a className="navbar__logo--link" href="#">{name}</a>
         </h1>
       </div>
 
@@ -31,9 +29,7 @@ function Navbar() {
 
         <div className="navbar__logo">
           <h1 className="navbar__logo--title">
-            <a className="navbar__logo--link" href="">
-              {name}
-            </a>
+            <a className="navbar__logo--link" href="">{name}</a>
           </h1>
         </div>
 
@@ -64,10 +60,10 @@ function Navbar() {
 
         <div className="navbar__message">
           {/* <h3 className="navbar__message--title">Turgunov Dostonbek</h3> */}
-          <a className="navbar__message--link" href="https://teletype.in/@turgunovdostonbek">
+          <a className="navbar__message--link" href="https://teletype.in/@turgunovdostonbek" target= "_blank">
             <FaBook className="navbar__mesage--icon book__icon" />
           </a>
-          <a className="navbar__message--link" href="https://github.com/TurgunovDostonbek">
+          <a className="navbar__message--link" href="https://github.com/TurgunovDostonbek" target= "_blank">
             <FaGithub className="navbar__mesage--icon github__icon" />
           </a>
           <a className="navbar__message--link" href="">
@@ -76,7 +72,7 @@ function Navbar() {
           <a className="navbar__message--link" href="@Turgunov1398">
             <FaTelegram className="navbar__mesage--icon telegram__icon" />
           </a>
-          <a className="navbar__message--link" href="https://www.linkedin.com/feed/">
+          <a className="navbar__message--link" href="https://www.linkedin.com/feed/" target= "_blank">
             <FaLinkedin className="navbar__mesage--icon linkedin__icon" />
           </a>
         </div>
