@@ -10,16 +10,17 @@ import { FaBook } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 
 function Navbar() {
+  let name = "Turgunov...";
   return (
     <div className="navbar">
 
-    <div className="navbar__logos">
-          <h1 className="navbar__logo--title">
-            <a className="navbar__logo--link" href="">
-              Turgunov...
-            </a>
-          </h1>
-        </div>
+      <div className="navbar__logos">
+        <h1 className="navbar__logo--title">
+          <a className="navbar__logo--link" href="">
+            {name}
+          </a>
+        </h1>
+      </div>
 
       <div className="navbar__container container">
         <div className="navbar__menu">
@@ -31,7 +32,7 @@ function Navbar() {
         <div className="navbar__logo">
           <h1 className="navbar__logo--title">
             <a className="navbar__logo--link" href="">
-              Turgunov...
+              {name}
             </a>
           </h1>
         </div>
@@ -63,19 +64,19 @@ function Navbar() {
 
         <div className="navbar__message">
           {/* <h3 className="navbar__message--title">Turgunov Dostonbek</h3> */}
-          <a className="navbar__message--link" href="">
+          <a className="navbar__message--link" href="https://teletype.in/@turgunovdostonbek">
             <FaBook className="navbar__mesage--icon book__icon" />
           </a>
-          <a className="navbar__message--link" href="">
+          <a className="navbar__message--link" href="https://github.com/TurgunovDostonbek">
             <FaGithub className="navbar__mesage--icon github__icon" />
           </a>
           <a className="navbar__message--link" href="">
             <FaInstagram className="navbar__mesage--icon instagram__icon" />
           </a>
-          <a className="navbar__message--link" href="">
+          <a className="navbar__message--link" href="@Turgunov1398">
             <FaTelegram className="navbar__mesage--icon telegram__icon" />
           </a>
-          <a className="navbar__message--link" href="">
+          <a className="navbar__message--link" href="https://www.linkedin.com/feed/">
             <FaLinkedin className="navbar__mesage--icon linkedin__icon" />
           </a>
         </div>

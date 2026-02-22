@@ -5,9 +5,7 @@ import { useState } from "react";
 
 function Course() {
   let [data, setData] = useState(0);
-  console.log(data);
   
-
   return (
     <div className="course">
       <div className="course__container container">
